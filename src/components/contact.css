@@ -1,0 +1,91 @@
+.mainContact__div {
+    width: 100%;
+    height: auto;
+    background: #08264f;
+}
+
+.contact__container {
+    width: 100%;
+    height: 100%;
+
+}
+
+.form__contaioner {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.contact__heading h2 {
+    text-align: center;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.form {
+    width: 400px;
+    height: 100%;
+    /* background: rgb(255, 130, 130); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.img__box {
+    width: 100px;
+    height: 90px;
+   
+    background: url("https://ouch-cdn2.icons8.com/-ChCL6U7PUkz7EW0gF4JAsm7tjNzIEB1yut6xc8jUIc/rs:fit:256:227/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvNzEw/Lzc4ZGExYjQwLTc4/ZWYtNGI4Ny1hOGMx/LTIzNTQwM2Q2NDkw/MS5zdmc.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.form__box form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 230px;
+    width: 90%;
+    /* border: 3px solid rebeccapurple; */
+    margin: 0 auto;
+}
+
+input {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    background: none;
+    color: white;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    background: none;
+    border: 1px solid gray;
+    padding: 10px;
+    color: white;
+
+}
+
+.message__btn {
+    padding: 10px 10px;
+    width: 30%;
+    margin:  20px 0;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(69, 69, 255);
+    background: rgb(69, 69, 255);
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 2px;
+}

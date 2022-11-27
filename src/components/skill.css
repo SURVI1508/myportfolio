@@ -1,0 +1,99 @@
+.service__main__div {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    overflow: hidden;
+    background:linear-gradient(40deg,rgb(255, 230, 0),rgb(255, 107, 38));
+}
+
+.service__container__box {
+    height: auto;
+    width:auto;
+    /* background: rgb(0, 0, 0); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.service__card {
+    width: 130px;
+    height: 130px;
+    color: #5e6c8f;
+    background:linear-gradient(40deg,rgb(255, 250, 205),rgb(255, 224, 209));
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px 20px;
+}
+
+
+
+.skill__icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+border: 3px solid #0048ff17;
+}
+
+.skill__icon img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.overlay {
+    width: 100%;
+    height: 0;
+    background: #08264fe7;
+    position: absolute;
+}
+
+.overlay h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: none;
+    margin-top: 55px;
+}
+
+.service__card:hover .overlay {
+    height: 100%;
+    transition: 0.3s;
+    display: block;
+}
+
+.service__card:hover .overlay h3 {
+    display: block;
+}
+
+@media (max-width:1200px) {
+    .service__container__box {
+        height: 100%;
+        width: 100%;
+        /* background: rgb(0, 0, 0); */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0 20px;
+    }
+
+    .service__card {
+        width: 150px;
+        margin: 20px 0;
+    }
+
+}

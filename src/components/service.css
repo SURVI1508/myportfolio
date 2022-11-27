@@ -1,0 +1,87 @@
+.unmachedservice__main__div {
+    width: 100%;
+    height: auto;
+    background: #08254f;
+    padding: 20px 0;
+    color: white;
+}
+
+.unmached__service__container {
+    width: 80%;
+    height: auto;
+    /* border: 2px solid rgb(0, 51, 255); */
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.unmached__text__container {
+    width: 300px;
+    height: auto;
+    /* border: 3px solid white; */
+    position: relative;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.unmached__text__container button {
+    padding: 15px;
+    border-radius: 50%;
+    background: #0377ff;
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.unmached__text__container__text__card {
+    width: 300px;
+    height: 250px;
+    border: 3px solid rgba(255, 255, 255, 0.221);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px 20px;
+    margin: 10px;
+    background: none;
+}
+
+.unmached__text__container__text__card:hover {
+    border: 3px solid rgb(255, 255, 255);
+    transition: 0.2s;
+}
+
+.unmached__icon__container {
+    width: 50px;
+    height: 50px;
+    background: #0079fe;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.unmached__icon__container img {
+    width: 50%;
+    height: 50%;
+}
+
+@media (max-width:850px) {
+    .unmached__service__container {
+        width: 100%;
+        padding: 0 0px;
+    }
+
+    .unmached__text__container__text__card {
+        width: 80%;
+        height: 300px;
+
+    }
+}
