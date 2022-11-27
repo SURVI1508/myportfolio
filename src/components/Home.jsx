@@ -28,7 +28,7 @@ const Home = () => {
                     </div>
 
                     <div className="image__container">
-                        <img src="https://ouch-cdn2.icons8.com/KLa7xQpMgENd_-IF7kJqj_2iMw9w0tfiEttUF9p8Z6E/rs:fit:256:332/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMzky/L2IxMzdhODkxLTg1/N2YtNDM4Mi05OTdh/LWJjZmRkMzcwNzgz/ZC5wbmc.png" alt="pic" />
+                        <img src="https://ouch-cdn2.icons8.com/2-8UMHPmbYpJnDDV3P5lK-cmvfIXlPfYE0OnXMqCOJo/rs:fit:256:268/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNjE5/L2QwYmY5N2MyLWRl/ZDYtNDM5NC05ZmNl/LWVmMWVlYTFmOTg3/ZC5wbmc.png" alt="pic" />
                     </div>
 
                 </div>
